@@ -1,0 +1,103 @@
+.App {
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: aliceblue;
+   width: 500px;
+   margin-top: 80px;
+   padding: 8px;
+   border-radius: 6px ;
+}
+
+.App h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form input[type="text"] {
+    padding: 10px;
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.form input[type="text"]:focus {
+    outline: none;
+}
+
+.form button[type="submit"] {
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 11px;
+    width: 14%;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #004080;
+}
+
+.todo-listItems {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.todo-listitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-content {
+    margin:0;
+    width: 60%;
+}
+
+.todo-listitem button {
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.todo-listitem button:hover {
+    outline: none;
+    color: white;
+}
+
+.update-item {
+    background-color: goldenrod;
+}
+
+.delete-item {
+    background-color: #fd434c;
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.update-form input[type="text"] {
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.update-form button[type="submit"] {
+    background-color: orchid;
+    cursor: pointer;
+}
